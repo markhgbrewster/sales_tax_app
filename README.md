@@ -22,8 +22,10 @@ The example inputs and desired outputs required parsing strings to determine tax
 
 Nevertheless, a command-line interface was implemented to handle string inputs, as demonstrating string-parsing skills seemed potentially relevant for the project. Additionally, due to possible ambiguities in how inputs might be formatted, an alternative command-line interface was developed, which allows users to input item attributes individually—this approach is likely to be more robust.
 
-As I was unsure if a command line interface would meet the requirements, a basic web server was created using only Ruby’s standard library. While this may be somewhat excessive for the current requirements, it could offer a user-friendly interface.
+As I was unsure if a command line interface would meet the requirements, a basic web server was created using only Ruby’s standard library. However, I think may be somewhat excessive for the current requirements and that WEBrick has been removed from ruby.
 
+If it is indeed outwith the scope of this please ignore it. Equally, if you would like it to work with the singe string input type, please let me know and
+I would be happy to implement a textarea where the user can enter the item lines separated by a new line space then I can hook that in to the existing code.
 
 In a real project, I would normally seek clarification on requirements before implementing multiple interfaces. However, given the external nature of the task and limited time, I opted to implement all three interfaces to cover different potential use cases.
 
